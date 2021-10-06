@@ -11,3 +11,7 @@ app.listen(prtnum, () => {
 app.get("/",(res,req) => {
     req.sendFile(`${__dirname}/index.html`)
 })
+
+app.get("/hosting-static-files/index.html",(res,req) => {
+    req.sendFile(`${__dirname}/index.html`)
+})
