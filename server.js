@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 app.use(express.static('public')) //middleware
-app.listen(3030, () => {
+const prtnum = process.env.PORT || 3000
+app.listen(prtnum, () => {
     console.log('Example app listening on port 3000!');
     //req.sendFile(`${__dirname}/`)
 });
