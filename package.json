@@ -13,6 +13,10 @@
   },
   "author": "PAUL",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm": "^6.14.15"
+  },
   "bugs": {
     "url": "https://github.com/Nileshwar-Paul-au17/hosting-static-files.git"
   },
