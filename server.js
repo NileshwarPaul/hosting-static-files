@@ -8,7 +8,7 @@ app.listen(prtnum, () => {
 });
 
 
-app.get("/",(res,req) => {
+app.get("*",(res,req) => {
     req.sendFile(`${__dirname}/index.html`)
 })
 
